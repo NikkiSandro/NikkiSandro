@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Система клиентских коммуникаций</title><desc id="desc">Sender и четыре бота для Telegram и MAX</desc>
+  <rect width="1200" height="420" fill="#F3F8FC"/>
+  <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200" stroke="#D8E4EC"/>
+  <text x="64" y="92" fill="#0B64F4" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="2">FLAGSHIP PROJECT</text>
+  <text x="64" y="160" fill="#0D1821" font-family="Inter,Arial,sans-serif" font-size="44" font-weight="700">Система клиентских коммуникаций</text>
+  <text x="64" y="208" fill="#425565" font-family="Inter,Arial,sans-serif" font-size="25">Sender и четыре бота для Telegram и MAX</text>
+  <text x="64" y="282" fill="#0D1821" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600">РАССЫЛКИ  •  АУДИТОРИЯ  •  АНАЛИТИКА  •  1С</text>
+  <g transform="translate(855 60)">
+    <rect x="0" y="62" width="220" height="190" fill="#FFF" stroke="#0D1821" stroke-width="2"/>
+    <rect x="18" y="84" width="184" height="18" fill="#0B64F4"/>
+    <rect x="18" y="122" width="74" height="52" fill="#E5EDF3"/>
+    <rect x="104" y="122" width="98" height="52" fill="#D6F2EC"/>
+    <path d="M22 226l34-22 28 8 38-32 34 12 42-36" fill="none" stroke="#0A9B84" stroke-width="5"/>
+    <g fill="#FFF" stroke="#0D1821" stroke-width="2"><circle cx="-42" cy="40" r="24"/><circle cx="262" cy="40" r="24"/><circle cx="-42" cy="276" r="24"/><circle cx="262" cy="276" r="24"/></g>
+    <g stroke="#0B64F4" stroke-width="3"><path d="M-31 51L0 88"/><path d="M251 51L220 88"/><path d="M-31 265L0 226"/><path d="M251 265L220 226"/></g>
+  </g>
+</svg>
