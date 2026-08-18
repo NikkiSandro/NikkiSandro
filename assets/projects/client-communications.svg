@@ -1,18 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Система клиентских коммуникаций</title><desc id="desc">Sender и четыре бота для Telegram и MAX</desc>
-  <rect width="1200" height="420" fill="#F3F8FC"/>
-  <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200" stroke="#D8E4EC"/>
-  <text x="64" y="92" fill="#0B64F4" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="2">FLAGSHIP PROJECT</text>
-  <text x="64" y="160" fill="#0D1821" font-family="Inter,Arial,sans-serif" font-size="44" font-weight="700">Система клиентских коммуникаций</text>
-  <text x="64" y="208" fill="#425565" font-family="Inter,Arial,sans-serif" font-size="25">Sender и четыре бота для Telegram и MAX</text>
-  <text x="64" y="282" fill="#0D1821" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600">РАССЫЛКИ  •  АУДИТОРИЯ  •  АНАЛИТИКА  •  1С</text>
-  <g transform="translate(855 60)">
-    <rect x="0" y="62" width="220" height="190" fill="#FFF" stroke="#0D1821" stroke-width="2"/>
-    <rect x="18" y="84" width="184" height="18" fill="#0B64F4"/>
-    <rect x="18" y="122" width="74" height="52" fill="#E5EDF3"/>
-    <rect x="104" y="122" width="98" height="52" fill="#D6F2EC"/>
-    <path d="M22 226l34-22 28 8 38-32 34 12 42-36" fill="none" stroke="#0A9B84" stroke-width="5"/>
-    <g fill="#FFF" stroke="#0D1821" stroke-width="2"><circle cx="-42" cy="40" r="24"/><circle cx="262" cy="40" r="24"/><circle cx="-42" cy="276" r="24"/><circle cx="262" cy="276" r="24"/></g>
-    <g stroke="#0B64F4" stroke-width="3"><path d="M-31 51L0 88"/><path d="M251 51L220 88"/><path d="M-31 265L0 226"/><path d="M251 265L220 226"/></g>
+  <title id="title">Система клиентских коммуникаций</title>
+  <desc id="desc">Sender и четыре бота для Telegram и MAX</desc>
+  <style>
+    .bg{fill:#f6f8fa}.surface{fill:#fff}.panel{fill:#eef2f5}.ink{fill:#101820}.muted{fill:#5d6873}.line{stroke:#c9d2db}.blue{fill:#0969da}.green{fill:#0a9b72}.green-line{stroke:#0a9b72}.orange{fill:#d97706}.chart{stroke-dasharray:310;stroke-dashoffset:310;animation:draw 5s ease-in-out infinite}.send{animation:send 5s ease-in-out infinite}.status{animation:status 2.3s ease-in-out infinite}
+    @keyframes draw{0%,12%{stroke-dashoffset:310}52%,88%{stroke-dashoffset:0}100%{stroke-dashoffset:-310}}
+    @keyframes send{0%,20%{transform:translateX(-26px);opacity:0}34%,78%{transform:translateX(0);opacity:1}92%,100%{transform:translateX(18px);opacity:0}}
+    @keyframes status{0%,100%{opacity:.35}50%{opacity:1}}
+    @media (prefers-color-scheme:dark){.bg{fill:#0d1117}.surface{fill:#161b22}.panel{fill:#21262d}.ink{fill:#f0f6fc}.muted{fill:#9da7b1}.line{stroke:#30363d}.blue{fill:#58a6ff}.green{fill:#3fb98c}.green-line{stroke:#3fb98c}.orange{fill:#e3b341}}
+    @media (prefers-reduced-motion:reduce){.chart,.send,.status{animation:none;stroke-dashoffset:0}}
+  </style>
+  <rect class="bg" width="1200" height="420"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <text class="green" x="54" y="62" font-size="14" font-weight="750" letter-spacing="2">ГЛАВНЫЙ КЕЙС</text>
+    <text class="ink" x="54" y="119" font-size="43" font-weight="750">Система клиентских</text>
+    <text class="ink" x="54" y="169" font-size="43" font-weight="750">коммуникаций</text>
+    <text class="muted" x="56" y="215" font-size="22">Sender и четыре бота для Telegram и MAX</text>
+    <g font-size="13" font-weight="700">
+      <rect class="panel" x="54" y="265" width="103" height="31" rx="5"/><text class="ink" x="72" y="286">РАССЫЛКИ</text>
+      <rect class="panel" x="167" y="265" width="96" height="31" rx="5"/><text class="ink" x="185" y="286">БОТЫ</text>
+      <rect class="panel" x="273" y="265" width="116" height="31" rx="5"/><text class="ink" x="291" y="286">АНАЛИТИКА</text>
+      <rect class="panel" x="399" y="265" width="92" height="31" rx="5"/><text class="ink" x="420" y="286">1С + CRM</text>
+    </g>
+    <text class="muted" x="56" y="352" font-size="15">Кампании, аудитория, контент ботов и ошибки</text>
+    <text class="muted" x="56" y="377" font-size="15">собраны в одном рабочем контуре.</text>
+  </g>
+  <g transform="translate(645 42)">
+    <rect class="surface line" width="500" height="332" rx="10" stroke-width="1.5"/>
+    <path class="line" d="M0 40H500M108 40V332"/>
+    <circle cx="19" cy="20" r="4.5" fill="#ff6b5f"/><circle cx="35" cy="20" r="4.5" fill="#e3b341"/><circle cx="51" cy="20" r="4.5" fill="#3fb950"/>
+    <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+      <text class="muted" x="17" y="68" font-size="9" font-weight="750" letter-spacing="1">SENDER</text>
+      <rect class="panel" x="10" y="83" width="88" height="32" rx="5"/><rect class="green" x="14" y="89" width="4" height="20" rx="2"/><text class="ink" x="27" y="104" font-size="11">Кампании</text>
+      <text class="muted" x="26" y="141" font-size="11">Аудитория</text><text class="muted" x="26" y="170" font-size="11">Боты</text><text class="muted" x="26" y="199" font-size="11">Аналитика</text><text class="muted" x="26" y="228" font-size="11">Ошибки</text>
+      <text class="ink" x="130" y="68" font-size="14" font-weight="700">Кампания «Август»</text>
+      <rect class="panel" x="130" y="84" width="338" height="52" rx="6"/>
+      <text class="muted" x="145" y="104" font-size="9">ПОЛУЧАТЕЛИ</text><text class="ink" x="145" y="126" font-size="19" font-weight="750">12 480</text>
+      <text class="muted" x="252" y="104" font-size="9">ДОСТАВЛЕНО</text><text class="ink" x="252" y="126" font-size="19" font-weight="750">96,4%</text>
+      <rect class="green status" x="397" y="99" width="55" height="21" rx="10"/><text fill="#fff" x="410" y="114" font-size="9" font-weight="700">ACTIVE</text>
+      <rect class="panel" x="130" y="150" width="214" height="132" rx="6"/>
+      <text class="muted" x="145" y="173" font-size="9">ДИНАМИКА ДОСТАВКИ</text>
+      <path class="line" d="M145 256H329M145 226H329M145 196H329" opacity=".7"/>
+      <path class="green-line chart" d="M146 251l28-17 28 6 31-31 27 9 32-39 35 14" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect class="panel" x="356" y="150" width="112" height="132" rx="6"/>
+      <text class="muted" x="370" y="173" font-size="9">КАНАЛЫ</text>
+      <rect class="blue" x="371" y="190" width="65" height="8" rx="3"/><text class="muted" x="371" y="214" font-size="9">TELEGRAM</text>
+      <rect class="green" x="371" y="231" width="48" height="8" rx="3"/><text class="muted" x="371" y="255" font-size="9">MAX</text>
+      <g class="send"><path class="green-line" d="M384 304H439" stroke-width="3"/><path class="green" d="M439 298l14 6-14 6z"/><text class="muted" x="130" y="309" font-size="10">Сообщение отправлено в очередь</text></g>
+    </g>
   </g>
 </svg>

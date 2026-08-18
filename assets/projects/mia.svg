@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" role="img" aria-labelledby="title"><title id="title">Mia AI assistant</title><rect width="560" height="280" fill="#F2FBF8"/><text x="34" y="54" fill="#087D69" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">AI ASSISTANT</text><text x="34" y="102" fill="#10221F" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">Mia</text><text x="34" y="137" fill="#4E625E" font-family="Inter,Arial,sans-serif" font-size="18">Ассистент в Telegram</text><g transform="translate(330 55)" fill="#FFF" stroke="#10221F" stroke-width="3"><circle cx="70" cy="70" r="30"/><circle cx="10" cy="30" r="14"/><circle cx="142" cy="22" r="14"/><circle cx="154" cy="112" r="14"/><circle cx="40" cy="154" r="14"/></g><g transform="translate(330 55)" stroke="#0A9B84" stroke-width="5"><path d="M22 38L52 57M130 30L92 55M142 105L96 82M47 141L61 98"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" role="img" aria-labelledby="title desc">
+  <title id="title">Mia</title><desc id="desc">Личный AI-ассистент в Telegram</desc>
+  <style>.bg{fill:#f6f8fa}.surface{fill:#fff}.panel{fill:#e8f4f0}.ink{fill:#14201d}.muted{fill:#5c6b66}.line{stroke:#c7d4d0}.accent{fill:#0a9b72}.user{fill:#dce9ff}@media(prefers-color-scheme:dark){.bg{fill:#0d1117}.surface{fill:#161b22}.panel{fill:#18342c}.ink{fill:#f0f6fc}.muted{fill:#9da7b1}.line{stroke:#30363d}.accent{fill:#3fb98c}.user{fill:#1c3553}}</style>
+  <rect class="bg" width="560" height="280"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <text class="accent" x="28" y="44" font-size="12" font-weight="750" letter-spacing="1.6">PERSONAL AI ASSISTANT</text>
+    <text class="ink" x="28" y="91" font-size="36" font-weight="750">Mia</text>
+    <text class="muted" x="28" y="123" font-size="17">Ассистент в Telegram</text>
+    <text class="ink" x="28" y="187" font-size="14" font-weight="650">Контекст не теряется</text>
+    <text class="muted" x="28" y="211" font-size="13">Диалог, инструменты</text><text class="muted" x="28" y="231" font-size="13">и постоянная память</text>
+  </g>
+  <g transform="translate(288 20)">
+    <rect class="surface line" width="240" height="240" rx="12" stroke-width="1.5"/>
+    <path class="line" d="M0 43H240"/><rect class="accent" x="15" y="13" width="20" height="20" rx="6"/><text fill="#fff" x="21" y="28" font-family="Arial" font-size="12" font-weight="700">M</text>
+    <text class="ink" x="44" y="27" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700">Mia</text><rect class="accent" x="211" y="18" width="8" height="8" rx="4"/>
+    <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="10">
+      <rect class="user" x="72" y="59" width="150" height="39" rx="10"/><text class="ink" x="84" y="76">Напомни, что мы решили</text><text class="ink" x="84" y="89">по презентации Sender</text>
+      <rect class="panel" x="18" y="111" width="184" height="58" rx="10"/><text class="ink" x="31" y="130">Собрали структуру кейса.</text><text class="ink" x="31" y="144">Осталось добавить скрины</text><text class="ink" x="31" y="158">и короткие подписи.</text>
+      <rect class="panel" x="18" y="181" width="113" height="24" rx="8"/><text class="accent" x="31" y="197" font-weight="700">Открыть заметку</text>
+      <path class="line" d="M18 221H222"/><text class="muted" x="29" y="235">Сообщение...</text><path class="accent" d="M207 224l14 7-14 7 3-7z"/>
+    </g>
+  </g>
+</svg>
